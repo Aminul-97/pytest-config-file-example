@@ -1,8 +1,4 @@
-import pytest
-from src.distance_calculator import (
-    kilometer_to_mile,
-    mile_to_kilometer
-)
+from src.distance_calculator import kilometer_to_mile, mile_to_kilometer
 
 
 def test_distance_calculator():
