@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Simple Distance Calculator"
 authors = ["ericsalesdeandrade <sdaeric19@gmail.com>"]
 readme = "README.md"
+python = "^3.11"
+
+[tool.pytest]
+addopts = ["-v"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
