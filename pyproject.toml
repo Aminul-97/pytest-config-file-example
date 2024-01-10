@@ -6,7 +6,7 @@ authors = ["ericsalesdeandrade <sdaeric19@gmail.com>"]
 readme = "README.md"
 python = "^3.11"
 
-[tool.pytest]
+[tool.pytest.ini_options]
 testpaths = ["tests", "integration"]
 addopts = "-v -ra -q"
 log_cli = true
